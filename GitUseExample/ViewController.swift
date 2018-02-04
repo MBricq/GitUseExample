@@ -19,9 +19,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBOutlet weak var label: UILabel!
+    
     @IBAction func test(_ sender: Any) {
         print("test button")
+    }
+    @IBAction func change(_ sender: Any) {
+        if label.textColor == UIColor.black{
+            label.textColor = UIColor.blue
+        }else{
+            label.textColor = UIColor.black
+        }
     }
     
 }

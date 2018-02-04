@@ -19,8 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-RD-Ppz">
-                                <rect key="frame" x="164" y="328.5" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="171" y="328.5" width="32" height="30"/>
+                                <state key="normal" title="Print"/>
                                 <connections>
                                     <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0c-83-dkI"/>
                                 </connections>
@@ -34,16 +34,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cv4-wO-FLJ">
+                                <rect key="frame" x="161" y="471" width="53" height="30"/>
+                                <state key="normal" title="Change"/>
+                                <connections>
+                                    <action selector="change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VMi-BV-B0g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mCk-RD-Ppz" firstAttribute="top" secondItem="yAP-Ol-YiM" secondAttribute="bottom" constant="152.5" id="69v-QN-XF3"/>
+                            <constraint firstItem="Cv4-wO-FLJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CWW-KZ-DHb"/>
                             <constraint firstItem="yAP-Ol-YiM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RQX-zI-BnG"/>
+                            <constraint firstItem="Cv4-wO-FLJ" firstAttribute="top" secondItem="mCk-RD-Ppz" secondAttribute="bottom" constant="112.5" id="WG7-MC-XoV"/>
                             <constraint firstItem="mCk-RD-Ppz" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="dE5-AL-dID"/>
                             <constraint firstItem="mCk-RD-Ppz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qJH-5O-Aao"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="yAP-Ol-YiM" id="Eu9-vW-E09"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
