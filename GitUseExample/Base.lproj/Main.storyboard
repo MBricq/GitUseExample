@@ -25,9 +25,20 @@
                                     <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0c-83-dkI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That's a test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAP-Ol-YiM">
+                                <rect key="frame" x="140" y="155" width="95" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="T9E-6Y-pfB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="mCk-RD-Ppz" firstAttribute="top" secondItem="yAP-Ol-YiM" secondAttribute="bottom" constant="152.5" id="69v-QN-XF3"/>
+                            <constraint firstItem="yAP-Ol-YiM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RQX-zI-BnG"/>
                             <constraint firstItem="mCk-RD-Ppz" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="dE5-AL-dID"/>
                             <constraint firstItem="mCk-RD-Ppz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qJH-5O-Aao"/>
                         </constraints>
