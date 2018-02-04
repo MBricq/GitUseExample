@@ -12,6 +12,7 @@
 		9C37EFD92027155F00FE239A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C37EFD72027155F00FE239A /* Main.storyboard */; };
 		9C37EFDB2027155F00FE239A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C37EFDA2027155F00FE239A /* Assets.xcassets */; };
 		9C37EFDE2027155F00FE239A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C37EFDC2027155F00FE239A /* LaunchScreen.storyboard */; };
+		9C37EFE62027196900FE239A /* MapForItinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37EFE52027196900FE239A /* MapForItinary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9C37EFDA2027155F00FE239A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C37EFDD2027155F00FE239A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C37EFDF2027155F00FE239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C37EFE52027196900FE239A /* MapForItinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9C37EFD32027155F00FE239A /* AppDelegate.swift */,
 				9C37EFD52027155F00FE239A /* ViewController.swift */,
 				9C37EFD72027155F00FE239A /* Main.storyboard */,
+				9C37EFE52027196900FE239A /* MapForItinary.swift */,
 				9C37EFDA2027155F00FE239A /* Assets.xcassets */,
 				9C37EFDC2027155F00FE239A /* LaunchScreen.storyboard */,
 				9C37EFDF2027155F00FE239A /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				9C37EFD62027155F00FE239A /* ViewController.swift in Sources */,
 				9C37EFD42027155F00FE239A /* AppDelegate.swift in Sources */,
+				9C37EFE62027196900FE239A /* MapForItinary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
